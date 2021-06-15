@@ -30,7 +30,7 @@ app.post("/login", (req, res) => {
 })
 
 app.get('/', (req, res) => {
-  res.send(`Welcome ${`\n`} View player at ${process.env.REDIRECT_URI}`)
+  res.send(`Welcome! ${`\n`} View player at ${process.env.REDIRECT_URI}`)
 })
 
 var port = process.env.PORT || 3001;
